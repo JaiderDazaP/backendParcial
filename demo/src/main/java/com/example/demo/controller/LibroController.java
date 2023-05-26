@@ -12,8 +12,8 @@ import java.util.List;
 import com.example.demo.model.Libro;
 import com.example.demo.repository.LibroRepository;
 
-
 @RestController
+@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/crud")
 public class LibroController {
 
